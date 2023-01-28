@@ -16,7 +16,7 @@ import { hold } from 'hold';
 import { KeyValueStorage } from 'key-value-storage-azure-data-tables';
 import { TokenIssuer } from 'token-issuer';
 
-/** @type {import('./types').BackendIdp.Application} */
+/** @type {import('./types').Application} */
 const app = ({
     process: hold(() => {
         return process;

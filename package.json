@@ -25,7 +25,7 @@
     "express-rate-limit": "^6.7.0",
     "express-slow-down": "^1.5.0",
     "hold": "github:e53e04ac/hold",
-    "ipp5-backend-idp-launcher": "github:e53e04ac/ipp5-backend-idp-launcher",
+    "ipp5-types": "github:e53e04ac/ipp5-types",
     "joi": "^17.7.0",
     "key-value-storage": "github:e53e04ac/key-value-storage",
     "key-value-storage-azure-data-tables": "github:e53e04ac/key-value-storage-azure-data-tables",
