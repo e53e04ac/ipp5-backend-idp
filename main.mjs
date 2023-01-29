@@ -13,8 +13,8 @@ import { default as expressSlowDown } from 'express-slow-down';
 import { default as Joi } from 'joi';
 
 import { hold } from 'hold';
+import { Ipp5TokenIssuer } from 'ipp5-token-issuer';
 import { KeyValueStorage } from 'key-value-storage-azure-data-tables';
-import { TokenIssuer } from 'token-issuer';
 
 /** @type {import('./types').Application} */
 const app = ({
@@ -129,7 +129,7 @@ const app = ({
         });
     }),
     tokenIssuer: hold(() => {
-        return TokenIssuer({
+        return Ipp5TokenIssuer({
             idpRegisterUrn: app.env().CUSTOM_BACKEND_IDP_REGISTER_URN,
             idpChallengeTokenUrn: app.env().CUSTOM_BACKEND_IDP_CHALLENGE_TOKEN_URN,
             idpTokenUrn: app.env().CUSTOM_BACKEND_IDP_TOKEN_URN,

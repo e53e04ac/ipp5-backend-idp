@@ -29,7 +29,7 @@
     "joi": "^17.7.0",
     "key-value-storage": "github:e53e04ac/key-value-storage",
     "key-value-storage-azure-data-tables": "github:e53e04ac/key-value-storage-azure-data-tables",
-    "token-issuer": "github:e53e04ac/token-issuer"
+    "ipp5-token-issuer": "github:e53e04ac/ipp5-token-issuer"
   },
   "devDependencies": {
     "@types/express-slow-down": "^1.3.2",

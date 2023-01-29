@@ -13,15 +13,15 @@ import { Router as ExpressRouter } from 'express';
 
 import { Get } from 'hold';
 import { Ipp5BackendIdpEnvMap } from 'ipp5-types';
+import { Ipp5TokenIssuer } from 'ipp5-token-issuer';
 import { KeyValueStorage } from 'key-value-storage';
-import { TokenIssuer } from 'token-issuer';
 
 export declare type Application = {
     readonly process: Get<NodeJS.Process>;
     readonly env: Get<Ipp5BackendIdpEnvMap>;
-    readonly pendingItemStorage: Get<KeyValueStorage<TokenIssuer.PendingItem>>;
-    readonly registeredItemStorage: Get<KeyValueStorage<TokenIssuer.RegisteredItem>>;
-    readonly tokenIssuer: Get<TokenIssuer>;
+    readonly pendingItemStorage: Get<KeyValueStorage<Ipp5TokenIssuer.PendingItem>>;
+    readonly registeredItemStorage: Get<KeyValueStorage<Ipp5TokenIssuer.RegisteredItem>>;
+    readonly tokenIssuer: Get<Ipp5TokenIssuer>;
     readonly healthcheckHandler: Get<ExpressRequestHandler<unknown, unknown, unknown, unknown, Record<string, unknown>>>;
     readonly expressSlowDown: Get<ExpressRequestHandler>;
     readonly expressRateLimit: Get<ExpressRequestHandler>;
