@@ -1,5 +1,5 @@
 /*!
-    @e53e04ac/ipp5-backend-idp/src/main.mjs
+    @e53e04ac/ipp5-backend-idp/index.mjs
     Copyright (C) @e53e04ac
     MIT License
 */
@@ -16,7 +16,7 @@ import { hold } from 'hold';
 import { Ipp5TokenIssuer } from 'ipp5-token-issuer';
 import { KeyValueStorage } from 'key-value-storage-azure-data-tables';
 
-/** @type {import('./types').Application} */
+/** @type {import('.').Application} */
 const app = ({
     process: hold(() => {
         return process;

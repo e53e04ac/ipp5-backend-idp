@@ -1,5 +1,5 @@
 /*!
-    @e53e04ac/ipp5-backend-idp/src/types.d.ts
+    @e53e04ac/ipp5-backend-idp/index.d.ts
     Copyright (C) @e53e04ac
     MIT License
 */
