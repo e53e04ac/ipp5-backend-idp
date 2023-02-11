@@ -5,7 +5,7 @@ npm install e53e04ac/ipp5-backend-idp
 ~~~~~
 
 ~~~~~ mjs
-import { type Application } from 'e53e04ac/ipp5-backend-idp';
+import { Application } from 'e53e04ac/ipp5-backend-idp';
 ~~~~~
 
 ~~~~~ mermaid
@@ -43,14 +43,14 @@ graph RL;
   click B_1 "https://www.npmjs.org/package/express/v/4.18.2";
   click B_2 "https://www.npmjs.org/package/express-rate-limit/v/6.7.0";
   click B_3 "https://www.npmjs.org/package/express-slow-down/v/1.5.0";
-  click B_4 "https://github.com/e53e04ac/hold/tree/8fc3f6696d1c7ed6d184d90c5e33298cc9228991";
+  click B_4 "https://github.com/e53e04ac/hold/tree/67e5b60f9bb3221f8b200107c13e89a604a93631";
   click B_5 "https://www.npmjs.org/package/joi/v/17.7.1";
-  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/5718e513ab0f193096ebcc1cbeae5a8fb6de9f1e";
-  click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/1b20ba41436d1efa164e2cae590a9fd99f666e27";
+  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/7d743e707f27c5b0ef0e924b87aad3cdb942c269";
+  click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/af5ab54ce79053db2fe8e1ef336d65cf7c15ae79";
   click B_8 "https://www.npmjs.org/package/@types/express-slow-down/v/1.3.2";
   click B_9 "https://www.npmjs.org/package/@types/node/v/18.13.0";
   click B_10 "https://github.com/e53e04ac/key-value-storage/tree/3ac1f2a26296911f456b9be263fb75a15b7fa9f7";
-  click B_11 "https://github.com/e53e04ac/ipp5-types/tree/aac76e19ca56887358edd54beb91a81e3807a191";
+  click B_11 "https://github.com/e53e04ac/ipp5-types/tree/6f3ee419d7cf5ae7f689bd79bde869f462fe30aa";
 ~~~~~
 
 ~~~~~ mermaid
@@ -97,7 +97,7 @@ graph RL;
 ~~~~~ mermaid
 graph RL;
   subgraph "e53e04ac/ipp5-backend-idp";
-    E_0(["type Application"]);
+    E_0(["Application"]);
   end;
   M(["index.d.ts"])
   subgraph "node:http";
