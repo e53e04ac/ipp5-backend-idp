@@ -4,9 +4,6 @@
 npm install e53e04ac/ipp5-backend-idp
 ~~~~~
 
-~~~~~ mjs
-~~~~~
-
 ~~~~~ mermaid
 graph RL;
   A(["package.json"]);
@@ -44,12 +41,12 @@ graph RL;
   click B_3 "https://www.npmjs.org/package/express-slow-down/v/1.5.0";
   click B_4 "https://github.com/e53e04ac/hold/tree/5dd6f94b8ecd94f98219a7afae52320676380c27";
   click B_5 "https://www.npmjs.org/package/joi/v/17.7.1";
-  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/74155f3975f40c68dbd2ce254cf14e3b77be64ce";
-  click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/8d32497102420437360b35a6e97e389dcdaf17a2";
+  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/2de9b3255665736d6e42fac6500b897ca1fa4ed3";
+  click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/814ae22b465ed4d730b83fa654b6050c28948e78";
   click B_8 "https://www.npmjs.org/package/@types/express-slow-down/v/1.3.2";
   click B_9 "https://www.npmjs.org/package/@types/node/v/18.13.0";
-  click B_10 "https://github.com/e53e04ac/key-value-storage/tree/3384bf80f73026013c755d24cc0360870aea81c0";
-  click B_11 "https://github.com/e53e04ac/ipp5-types/tree/e950b5bccb9901b27ada132a459c0117aa587939";
+  click B_10 "https://github.com/e53e04ac/key-value-storage/tree/a100f8943f4cf6e42de17d6757f7880c48830b8e";
+  click B_11 "https://github.com/e53e04ac/ipp5-types/tree/228a79560e81a38fca36baec24e5729d1f36bb9f";
 ~~~~~
 
 ~~~~~ mermaid
