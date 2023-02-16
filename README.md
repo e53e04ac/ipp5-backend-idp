@@ -41,7 +41,7 @@ graph RL;
   click B_3 "https://www.npmjs.org/package/express-slow-down/v/1.5.0";
   click B_4 "https://github.com/e53e04ac/hold/tree/b0b5ef032800af76c6e7ae27472dbf25a04a947d";
   click B_5 "https://www.npmjs.org/package/joi/v/17.7.1";
-  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/61e088edc8c8e818e9d41851e1c9be36a60f55af";
+  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/4c4b64a5479d3c3e62417ff9ea708f6e1e101b9e";
   click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/ca57c4cfb4e91290e3fe44349e2ec55a7f5b351d";
   click B_8 "https://www.npmjs.org/package/@types/express-slow-down/v/1.3.2";
   click B_9 "https://www.npmjs.org/package/@types/node/v/18.13.0";
