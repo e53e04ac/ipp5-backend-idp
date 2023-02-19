@@ -41,12 +41,12 @@ graph RL;
   click B_3 "https://www.npmjs.com/package/express-slow-down/v/1.5.0";
   click B_4 "https://github.com/e53e04ac/hold/tree/3191dd4704f3e5f90d6c27f288ede7700f5fdb66";
   click B_5 "https://www.npmjs.com/package/joi/v/17.7.1";
-  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/b2da6c2b5230de7d0793a5b7a1d2b4b7c26fe3dc";
-  click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/f320824816019aa1f75818e3e9c7a7fb6c737d9e";
+  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/817d5d0668ebc25c507f5ccaa81094fabe28deb2";
+  click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/cf910fc46a338d516e3de2280c29eb16176113eb";
   click B_8 "https://www.npmjs.com/package/@types/express-slow-down/v/1.3.2";
   click B_9 "https://www.npmjs.com/package/@types/node/v/18.14.0";
   click B_10 "https://github.com/e53e04ac/key-value-storage/tree/8d4bb85c8c087b8ba8621099cf6cbded974243fd";
-  click B_11 "https://github.com/e53e04ac/ipp5-types/tree/a52c2b739c3d68e21dd63da9cb3e603732acc3d1";
+  click B_11 "https://github.com/e53e04ac/ipp5-types/tree/7b54ab5fbd2f85facb7851e6ae651413d4d1e0d2";
 ~~~~~
 
 ~~~~~ mermaid
