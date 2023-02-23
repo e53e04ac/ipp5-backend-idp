@@ -39,14 +39,14 @@ graph RL;
   click B_1 "https://www.npmjs.com/package/express/v/4.18.2";
   click B_2 "https://www.npmjs.com/package/express-rate-limit/v/6.7.0";
   click B_3 "https://www.npmjs.com/package/express-slow-down/v/1.5.0";
-  click B_4 "https://github.com/e53e04ac/hold/tree/3191dd4704f3e5f90d6c27f288ede7700f5fdb66";
+  click B_4 "https://github.com/e53e04ac/hold/tree/443c2e801bbe20409c761994a91fa88fb6044602";
   click B_5 "https://www.npmjs.com/package/joi/v/17.8.3";
-  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/e732a12bed03c95f65dd0a698b7512d25d5ecdc7";
-  click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/3be82d8f94e07d5fcaaea2d092dd6b61c8cee5b4";
+  click B_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/deb1e49ed611cbcf7b64474c952401042085c209";
+  click B_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/58dd1850fadda375458374d2e87368a21ec900d4";
   click B_8 "https://www.npmjs.com/package/@types/express-slow-down/v/1.3.2";
-  click B_9 "https://www.npmjs.com/package/@types/node/v/18.14.0";
-  click B_10 "https://github.com/e53e04ac/key-value-storage/tree/8d4bb85c8c087b8ba8621099cf6cbded974243fd";
-  click B_11 "https://github.com/e53e04ac/ipp5-types/tree/7b54ab5fbd2f85facb7851e6ae651413d4d1e0d2";
+  click B_9 "https://www.npmjs.com/package/@types/node/v/18.14.1";
+  click B_10 "https://github.com/e53e04ac/key-value-storage/tree/f725cf303b26f6141a5a80d20e44900429ce02c4";
+  click B_11 "https://github.com/e53e04ac/ipp5-types/tree/0a43bae7223e3c65232855804c51a33affbbb06f";
 ~~~~~
 
 ~~~~~ mermaid
