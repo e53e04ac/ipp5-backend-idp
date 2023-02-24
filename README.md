@@ -24,11 +24,11 @@ graph RL;
     B_11(["ipp5-types"]);
   end;
   subgraph "github";
-    C_4(["e53e04ac/hold\n6845a848f97733b8cd8a34bfc03c3bf040818aa8"]);
-    C_6(["e53e04ac/key-value-storage-azure-data-tables\nb12a7d4b98aaf754a7552ae6436e60783211806f"]);
-    C_7(["e53e04ac/ipp5-token-issuer\ne1029a17d8ac14997d9f086e197d7c0e499af810"]);
-    C_10(["e53e04ac/key-value-storage\n0c416b2f75d9d2c6a56b22b658d29970b1729090"]);
-    C_11(["e53e04ac/ipp5-types\n82577500bdeaa45ca281669d5ed3d3850c4376e8"]);
+    C_4(["e53e04ac/hold\n593585d63bb24dc044f13a88375b53f9fa565229"]);
+    C_6(["e53e04ac/key-value-storage-azure-data-tables\n53f1db068a9eb06f5321016284f18534a35571db"]);
+    C_7(["e53e04ac/ipp5-token-issuer\ncb3abb30a6347c93912259147ed1139e25e8e9bf"]);
+    C_10(["e53e04ac/key-value-storage\nf8859c136309df5ece3827a5d40d077a00585f83"]);
+    C_11(["e53e04ac/ipp5-types\nebe99d725f05ad1eabec2b37a2c5737becc56480"]);
   end;
   subgraph "npmjs";
     C_0(["@types/express\n4.17.17"]);
@@ -67,53 +67,14 @@ graph RL;
   click C_1 "https://www.npmjs.com/package/express/v/4.18.2";
   click C_2 "https://www.npmjs.com/package/express-rate-limit/v/6.7.0";
   click C_3 "https://www.npmjs.com/package/express-slow-down/v/1.5.0";
-  click C_4 "https://github.com/e53e04ac/hold/tree/6845a848f97733b8cd8a34bfc03c3bf040818aa8";
+  click C_4 "https://github.com/e53e04ac/hold/tree/593585d63bb24dc044f13a88375b53f9fa565229";
   click C_5 "https://www.npmjs.com/package/joi/v/17.8.3";
-  click C_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/b12a7d4b98aaf754a7552ae6436e60783211806f";
-  click C_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/e1029a17d8ac14997d9f086e197d7c0e499af810";
+  click C_6 "https://github.com/e53e04ac/key-value-storage-azure-data-tables/tree/53f1db068a9eb06f5321016284f18534a35571db";
+  click C_7 "https://github.com/e53e04ac/ipp5-token-issuer/tree/cb3abb30a6347c93912259147ed1139e25e8e9bf";
   click C_8 "https://www.npmjs.com/package/@types/express-slow-down/v/1.3.2";
   click C_9 "https://www.npmjs.com/package/@types/node/v/18.14.1";
-  click C_10 "https://github.com/e53e04ac/key-value-storage/tree/0c416b2f75d9d2c6a56b22b658d29970b1729090";
-  click C_11 "https://github.com/e53e04ac/ipp5-types/tree/82577500bdeaa45ca281669d5ed3d3850c4376e8";
-~~~~~
-
-~~~~~ mermaid
-graph RL;
-  M["index.mjs"]
-  subgraph "node:http";
-    I_0_0(["Server"]);
-  end;
-  subgraph "express";
-    I_1_0(["default"]);
-    I_1_1(["Router"]);
-  end;
-  subgraph "express-rate-limit";
-    I_2_0(["default"]);
-  end;
-  subgraph "express-slow-down";
-    I_3_0(["default"]);
-  end;
-  subgraph "joi";
-    I_4_0(["default"]);
-  end;
-  subgraph "hold";
-    I_5_0(["hold"]);
-  end;
-  subgraph "ipp5-token-issuer";
-    I_6_0(["Ipp5TokenIssuer"]);
-  end;
-  subgraph "key-value-storage-azure-data-tables";
-    I_7_0(["KeyValueStorage"]);
-  end;
-  M ----> I_0_0;
-  M ----> I_1_0;
-  M ----> I_1_1;
-  M ----> I_2_0;
-  M ----> I_3_0;
-  M ----> I_4_0;
-  M ----> I_5_0;
-  M ----> I_6_0;
-  M ----> I_7_0;
+  click C_10 "https://github.com/e53e04ac/key-value-storage/tree/f8859c136309df5ece3827a5d40d077a00585f83";
+  click C_11 "https://github.com/e53e04ac/ipp5-types/tree/ebe99d725f05ad1eabec2b37a2c5737becc56480";
 ~~~~~
 
 ~~~~~ mermaid
@@ -153,4 +114,43 @@ graph RL;
   M ----> I_4_0;
   M ----> I_5_0;
   E_0 ----> M;
+~~~~~
+
+~~~~~ mermaid
+graph RL;
+  M["index.mjs"]
+  subgraph "node:http";
+    I_0_0(["Server"]);
+  end;
+  subgraph "express";
+    I_1_0(["default"]);
+    I_1_1(["Router"]);
+  end;
+  subgraph "express-rate-limit";
+    I_2_0(["default"]);
+  end;
+  subgraph "express-slow-down";
+    I_3_0(["default"]);
+  end;
+  subgraph "joi";
+    I_4_0(["default"]);
+  end;
+  subgraph "hold";
+    I_5_0(["hold"]);
+  end;
+  subgraph "ipp5-token-issuer";
+    I_6_0(["Ipp5TokenIssuer"]);
+  end;
+  subgraph "key-value-storage-azure-data-tables";
+    I_7_0(["KeyValueStorage"]);
+  end;
+  M ----> I_0_0;
+  M ----> I_1_0;
+  M ----> I_1_1;
+  M ----> I_2_0;
+  M ----> I_3_0;
+  M ----> I_4_0;
+  M ----> I_5_0;
+  M ----> I_6_0;
+  M ----> I_7_0;
 ~~~~~
