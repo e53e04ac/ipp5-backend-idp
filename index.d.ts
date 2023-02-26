@@ -22,6 +22,7 @@ export declare type Application = {
     readonly pendingItemStorage: Get<KeyValueStorage<Ipp5TokenIssuer.PendingItem>>;
     readonly registeredItemStorage: Get<KeyValueStorage<Ipp5TokenIssuer.RegisteredItem>>;
     readonly tokenIssuer: Get<Ipp5TokenIssuer>;
+    readonly logHandler: Get<ExpressRequestHandler<unknown, unknown, unknown, unknown, Record<string, unknown>>>;
     readonly healthcheckHandler: Get<ExpressRequestHandler<unknown, unknown, unknown, unknown, Record<string, unknown>>>;
     readonly expressSlowDown: Get<ExpressRequestHandler>;
     readonly expressRateLimit: Get<ExpressRequestHandler>;
