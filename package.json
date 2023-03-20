@@ -29,7 +29,7 @@
     "express-rate-limit": "^6.7.0",
     "express-slow-down": "^1.5.0",
     "hold": "github:e53e04ac/hold",
-    "joi": "^17.7.0",
+    "joi": "^17.9.0",
     "key-value-storage-azure-data-tables": "github:e53e04ac/key-value-storage-azure-data-tables",
     "ipp5-token-issuer": "github:e53e04ac/ipp5-token-issuer"
   },
