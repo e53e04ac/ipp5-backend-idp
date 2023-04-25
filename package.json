@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/express-slow-down": "^1.3.2",
-    "@types/node": "^18.14.0",
+    "@types/node": "^18.16.1",
     "key-value-storage": "github:e53e04ac/key-value-storage",
     "ipp5-types": "github:e53e04ac/ipp5-types"
   }
